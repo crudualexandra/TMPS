@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C099E75F2E9E55D6006C0BC5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E75E2E9E55D6006C0BC5 /* ContentView.swift */; };
+		C099E77C2E9E56DE006C0BC5 /* CategoryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E77B2E9E56DD006C0BC5 /* CategoryCardView.swift */; };
+		C099E7812E9E56FE006C0BC5 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7802E9E56FD006C0BC5 /* GameView.swift */; };
+		C099E7832E9E570A006C0BC5 /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7822E9E5709006C0BC5 /* FlashcardView.swift */; };
+		C099E7852E9E5A1B006C0BC5 /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E76E2E9E564B006C0BC5 /* Flashcard.swift */; };
+		C099E7862E9E5A22006C0BC5 /* GeographyFlashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E76F2E9E5657006C0BC5 /* GeographyFlashcard.swift */; };
+		C099E7872E9E5A2B006C0BC5 /* LanguageFlashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7702E9E5661006C0BC5 /* LanguageFlashcard.swift */; };
+		C099E7882E9E5A2F006C0BC5 /* ScienceFlashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7712E9E5668006C0BC5 /* ScienceFlashcard.swift */; };
+		C099E7892E9E5A34006C0BC5 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7722E9E5672006C0BC5 /* Category.swift */; };
+		C099E78A2E9E5A39006C0BC5 /* Subcategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7762E9E5685006C0BC5 /* Subcategory.swift */; };
+		C099E78B2E9E5A3D006C0BC5 /* FlashcardDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7772E9E56AA006C0BC5 /* FlashcardDataService.swift */; };
+		C099E78C2E9E5A42006C0BC5 /* ShuffleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7782E9E56B5006C0BC5 /* ShuffleService.swift */; };
+		C099E78D2E9E5A46006C0BC5 /* CategoriesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E7792E9E56BF006C0BC5 /* CategoriesViewModel.swift */; };
+		C099E78E2E9E5A4C006C0BC5 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C099E77A2E9E56C8006C0BC5 /* GameViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C099E7592E9E55D6006C0BC5 /* FlashCardGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = FlashCardGame.app; path = "/Users/sanduta/Documents/TMPS/FlashCardGame/build/Debug-iphoneos/FlashCardGame.app"; sourceTree = "<absolute>"; };
+		C099E75E2E9E55D6006C0BC5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C099E76E2E9E564B006C0BC5 /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		C099E76F2E9E5657006C0BC5 /* GeographyFlashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeographyFlashcard.swift; sourceTree = "<group>"; };
+		C099E7702E9E5661006C0BC5 /* LanguageFlashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageFlashcard.swift; sourceTree = "<group>"; };
+		C099E7712E9E5668006C0BC5 /* ScienceFlashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScienceFlashcard.swift; sourceTree = "<group>"; };
+		C099E7722E9E5672006C0BC5 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		C099E7762E9E5685006C0BC5 /* Subcategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subcategory.swift; sourceTree = "<group>"; };
+		C099E7772E9E56AA006C0BC5 /* FlashcardDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardDataService.swift; sourceTree = "<group>"; };
+		C099E7782E9E56B5006C0BC5 /* ShuffleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShuffleService.swift; sourceTree = "<group>"; };
+		C099E7792E9E56BF006C0BC5 /* CategoriesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewModel.swift; sourceTree = "<group>"; };
+		C099E77A2E9E56C8006C0BC5 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		C099E77B2E9E56DD006C0BC5 /* CategoryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCardView.swift; sourceTree = "<group>"; };
+		C099E7802E9E56FD006C0BC5 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C099E7822E9E5709006C0BC5 /* FlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardView.swift; sourceTree = "<group>"; };
+		C099E78F2E9E5B43006C0BC5 /* notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C099E75B2E9E55D6006C0BC5 /* FlashCardGame */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FlashCardGame;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C099E7562E9E55D6006C0BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C099E7502E9E55D6006C0BC5 = {
+			isa = PBXGroup;
+			children = (
+				C099E7842E9E58FD006C0BC5 /* New Group */,
+				C099E76D2E9E5617006C0BC5 /* Views */,
+				C099E76C2E9E560E006C0BC5 /* ViewModels */,
+				C099E76B2E9E5606006C0BC5 /* Services */,
+				C099E76A2E9E55FD006C0BC5 /* Models */,
+				C099E75B2E9E55D6006C0BC5 /* FlashCardGame */,
+			);
+			sourceTree = "<group>";
+		};
+		C099E76A2E9E55FD006C0BC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C099E7762E9E5685006C0BC5 /* Subcategory.swift */,
+				C099E7722E9E5672006C0BC5 /* Category.swift */,
+				C099E7712E9E5668006C0BC5 /* ScienceFlashcard.swift */,
+				C099E7702E9E5661006C0BC5 /* LanguageFlashcard.swift */,
+				C099E76F2E9E5657006C0BC5 /* GeographyFlashcard.swift */,
+				C099E76E2E9E564B006C0BC5 /* Flashcard.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C099E76B2E9E5606006C0BC5 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				C099E7782E9E56B5006C0BC5 /* ShuffleService.swift */,
+				C099E7772E9E56AA006C0BC5 /* FlashcardDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		C099E76C2E9E560E006C0BC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C099E77A2E9E56C8006C0BC5 /* GameViewModel.swift */,
+				C099E7792E9E56BF006C0BC5 /* CategoriesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C099E76D2E9E5617006C0BC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C099E7822E9E5709006C0BC5 /* FlashcardView.swift */,
+				C099E7802E9E56FD006C0BC5 /* GameView.swift */,
+				C099E77B2E9E56DD006C0BC5 /* CategoryCardView.swift */,
+				C099E75E2E9E55D6006C0BC5 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C099E7842E9E58FD006C0BC5 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				C099E78F2E9E5B43006C0BC5 /* notes.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C099E7582E9E55D6006C0BC5 /* FlashCardGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C099E7672E9E55D9006C0BC5 /* Build configuration list for PBXNativeTarget "FlashCardGame" */;
+			buildPhases = (
+				C099E7552E9E55D6006C0BC5 /* Sources */,
+				C099E7562E9E55D6006C0BC5 /* Frameworks */,
+				C099E7572E9E55D6006C0BC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C099E75B2E9E55D6006C0BC5 /* FlashCardGame */,
+			);
+			name = FlashCardGame;
+			packageProductDependencies = (
+			);
+			productName = FlashCardGame;
+			productReference = C099E7592E9E55D6006C0BC5 /* FlashCardGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C099E7512E9E55D6006C0BC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					C099E7582E9E55D6006C0BC5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = C099E7542E9E55D6006C0BC5 /* Build configuration list for PBXProject "FlashCardGame" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C099E7502E9E55D6006C0BC5;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C099E7502E9E55D6006C0BC5;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C099E7582E9E55D6006C0BC5 /* FlashCardGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C099E7572E9E55D6006C0BC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C099E7552E9E55D6006C0BC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C099E7862E9E5A22006C0BC5 /* GeographyFlashcard.swift in Sources */,
+				C099E7892E9E5A34006C0BC5 /* Category.swift in Sources */,
+				C099E7852E9E5A1B006C0BC5 /* Flashcard.swift in Sources */,
+				C099E78E2E9E5A4C006C0BC5 /* GameViewModel.swift in Sources */,
+				C099E78C2E9E5A42006C0BC5 /* ShuffleService.swift in Sources */,
+				C099E75F2E9E55D6006C0BC5 /* ContentView.swift in Sources */,
+				C099E7832E9E570A006C0BC5 /* FlashcardView.swift in Sources */,
+				C099E78D2E9E5A46006C0BC5 /* CategoriesViewModel.swift in Sources */,
+				C099E7882E9E5A2F006C0BC5 /* ScienceFlashcard.swift in Sources */,
+				C099E77C2E9E56DE006C0BC5 /* CategoryCardView.swift in Sources */,
+				C099E7812E9E56FE006C0BC5 /* GameView.swift in Sources */,
+				C099E78B2E9E5A3D006C0BC5 /* FlashcardDataService.swift in Sources */,
+				C099E78A2E9E5A39006C0BC5 /* Subcategory.swift in Sources */,
+				C099E7872E9E5A2B006C0BC5 /* LanguageFlashcard.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C099E7652E9E55D9006C0BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C099E7662E9E55D9006C0BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C099E7682E9E55D9006C0BC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlashCardGame/Preview Content\"";
+				DEVELOPMENT_TEAM = JU394TA36T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FlashCardGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C099E7692E9E55D9006C0BC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlashCardGame/Preview Content\"";
+				DEVELOPMENT_TEAM = JU394TA36T;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-.FlashCardGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C099E7542E9E55D6006C0BC5 /* Build configuration list for PBXProject "FlashCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C099E7652E9E55D9006C0BC5 /* Debug */,
+				C099E7662E9E55D9006C0BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C099E7672E9E55D9006C0BC5 /* Build configuration list for PBXNativeTarget "FlashCardGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C099E7682E9E55D9006C0BC5 /* Debug */,
+				C099E7692E9E55D9006C0BC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C099E7512E9E55D6006C0BC5 /* Project object */;
+}
