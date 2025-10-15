@@ -15,25 +15,21 @@ Write an app in which are used 3 SOLID principles.
 Each file/class has ONE responsibility
 - FlashcardDataService: Only data management
 
-‘’’ swift
-
+```swift 
 // Services/FlashcardDataService.swift
 final class FlashcardDataService {
 func getCategories() -> [Category] { /* builds Category/Subcategory trees */ }
 }
-
-‘’’
+```
 
 - ShuffleService: Only shuffling, random order
 
-‘’’ swift
-
+```swift 
 // Services/ShuffleService.swift
 final class ShuffleService {
 func shuffle<T>(_ items: [T]) -> [T] { items.shuffled() }
 }
-
-‘’’
+```
 
 - CategoriesViewModel: Only categories state
 - GameViewModel: Only game state
@@ -44,7 +40,7 @@ Open for extension, closed for modification. We can add a **new flashcard type**
     - No need to modify existing code
     - Example: Create HistoryFlashcard.swift conforming to Flashcard
 
-‘’’ swift
+```swift 
 
 // Models/HistoryFlashcard.swift  (new file)
 struct HistoryFlashcard: Flashcard {
@@ -53,9 +49,9 @@ let question: String
 let answer: String
 }
 
-‘’’
+```
 
-‘’’ swift
+```swift 
 
 // inside FlashcardDataService.getCategories()
 Subcategory(name: "World Wars", flashcards: [
@@ -63,21 +59,21 @@ HistoryFlashcard(question: "WWII start year?", answer: "1939"),
 HistoryFlashcard(question: "D-Day month/year?", answer: "June 1944")
 ])
 
-‘’’
+```
 
 1. LISKOV SUBSTITUTION PRINCIPLE (LSP):
 All flashcard types are interchangeable
     - GameViewModel works with any Flashcard
     - Can substitute any type without breaking code
 
-‘’’ swift
+```swift 
 
 // GameViewModel.swift
 @Published var currentFlashcards: [any Flashcard] = [] // works for Geography, Language, Science, History...
 
-‘’’
+```
 
-‘’’ swift
+```swift 
 
 // Models/Flashcard.swift
 protocol Flashcard: Identifiable {
@@ -86,7 +82,7 @@ var question: String { get }
 var answer: String { get }
 }
 
-‘’’
+```
 
 # **Conclusion**
 
