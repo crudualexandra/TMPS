@@ -124,7 +124,7 @@ let director = PlanDirector()
 let plan = director.makeDeepFocusDay(with: DeepFocusPlanBuilder())
 
 ```
-
+### Not Implemented Patterns just examples.
 ### **4. Abstract Factory Pattern**
 
 **Purpose:**
