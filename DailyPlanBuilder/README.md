@@ -29,11 +29,10 @@ final class SettingsStore {
 static let shared = SettingsStore()  // single global instance
 private init() {}                    // private constructor
 
-```
 var theme: Theme = .system
 var hapticsEnabled: Bool = true
 
-```
+
 
 }
 
@@ -105,13 +104,13 @@ final class DeepFocusPlanBuilder: DailyPlanBuilder {
 private var title = ""
 private var items: [PlanItem] = []
 
-```
+
 func reset(title: String) { self.title = title; items.removeAll() }
 func addFocus(minutes: Int, note: String) { items.append(.init(kind: .focus, durationMinutes: minutes, note: note)) }
 func addWorkout(minutes: Int, note: String) { items.append(.init(kind: .workout, durationMinutes: minutes, note: note)) }
 func build() -> DailyPlan { DailyPlan(title: title, items: items) }
 
-```
+
 
 }
 
@@ -162,12 +161,12 @@ class PlanTemplate: NSCopying {
 var name: String
 init(name: String) { [self.name](http://self.name/) = name }
 
-```
+
 func copy(with zone: NSZone? = nil) -> Any {
     return PlanTemplate(name: self.name)
 }
 
-```
+
 
 }
 
